@@ -1,0 +1,9 @@
+body{
+  background: rgb(17, 186, 223);
+}
+
+.text-center{
+  border : 1px solid black;
+  box-shadow: 5px 5px 10px 2px #333333;
+
+}
