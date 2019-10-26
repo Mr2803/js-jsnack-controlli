@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Array Dispari | Marco Rispoli</title>
+</head>
+
+<body>
+  <div class="container-fluid my_style-bg-shadow">
+    <div class="row my_style-bg-shadow">
+      <div class="col-12  my_style-bg-shadow">
+        <h1 class="text-center color">JSNACK 5</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid my_style-bg-shadow">
+    <div class="row my_style-bg-shadow">
+      <div class="col-12  my_style-bg-shadow">
+        <h2 class="text-center color">PROBLEM</h2>
+        <p class="text-center color">Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array..</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid my_style-bg-shadow">
+    <div class="row my_style-bg-shadow">
+      <div class="col-12  my_style-bg-shadow">
+        <h2 class="text-center color">SOLUTION</h2>
+      </div>
+    </div>
+    <div class="row " style="background:#333641">
+      <div class="col-4 mt-3 mb-3">
+        <span class="my_span-title p-3 color">HTML</span>
+        <div class="codepen p-3 my_overflow color">
+          <p>prova </p>
+        </div>
+
+      </div>
+      <div class="col-4 mt-3 mb-3">
+        <span class="my_span-title p-3 color">CSS</span>
+        <div class="codepen np-3 my_overflow color">
+          <p>div /div</p>
+        </div>
+
+      </div>
+      <div class="col-4 mt-3 mb-3">
+        <span class="my_span-title p-3 color">JS</span>
+        <div class="codepen p-3 my_overflow color">
+          <ul>
+           <li>var array = [];</li>
+           <li>for(var i=0; i < 6 ; i++){</li>
+           <li>var number = parseInt(prompt("inserisci un numero"));</li>
+           <li>if(number % 2 !== 0){</li>
+           <li>array.push(number);</li>
+           <li>}</li>
+           <li>}</li>
+           <li>document.getElementById("odd").innerHTML = "I numeri dispari da te inseriti sono :" + array;</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center">
+          <h1>Array Dispari</h1>
+          <h6>Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array.</h6>
+          <p id="odd"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
