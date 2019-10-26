@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Parole in successione | Marco Rispoli</title>
+</head>
+<body>
+  <div class="container-fluid my_style-bg-shadow">
+    <div class="row my_style-bg-shadow">
+      <div class="col-12  my_style-bg-shadow">
+        <h1 class="text-center color">JSNACK 3</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid my_style-bg-shadow">
+    <div class="row my_style-bg-shadow">
+      <div class="col-12  my_style-bg-shadow">
+        <h2 class="text-center color">PROBLEM</h2>
+        <p class="text-center color">Il software deve chiedere per 5 volte all’utente di inserire un numero. Il programma stampa la somma di tutti i numeri
+        inseriti. Esegui questo programma in due versioni, con il for e con il while.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid my_style-bg-shadow">
+    <div class="row my_style-bg-shadow">
+      <div class="col-12  my_style-bg-shadow">
+        <h2 class="text-center color">SOLUTION</h2>
+      </div>
+    </div>
+    <div class="row " style="background:#333641">
+      <div class="col-4 mt-3 mb-3">
+        <span class="my_span-title p-3 color">HTML</span>
+        <div class="codepen p-3 my_overflow color">
+          <p>prova</p>
+        </div>
+
+      </div>
+      <div class="col-4 mt-3 mb-3">
+        <span class="my_span-title p-3 color">CSS</span>
+        <div class="codepen np-3 my_overflow color">
+          <p>div /div</p>
+        </div>
+
+      </div>
+      <div class="col-4 mt-3 mb-3">
+        <span class="my_span-title p-3 color">JS</span>
+        <div class="codepen p-3 my_overflow color">
+          <ul>
+            <li>var somma=0;</li>
+            <li>//CICLO FOR</li>
+            <li>for (var i = 0; i < 5; i++) {</li>
+            <li>var nums=parseInt(prompt("Inserisci un numero"));</li>
+            <li>somma=somma + nums;</li>
+            <li>}</li>
+            <li>document.getElementById('somma').innerHTML=somma;</li>
+            <li>//CICLO WHILE</li>
+            <li>var j = 0;</li>
+            <li>while(j < 5 ){</li>
+            <li>var nums = parseInt(prompt("Inserisci un numero"));</li>
+            <li>somma = somma + nums;</li>
+            <li>j++;</li>
+            <li>}</li>
+            <li>document.getElementById('somma').innerHTML = somma;</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center">
+          <h1>Somma dei numeri inseriti dall'utente</h1>
+          <p id="somma"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
