@@ -1,10 +1,23 @@
 //L’utente inserisce due parole in successione, con due prompt. Il software stampa prima la parola più corta, poi la parola più lunga.
 
-var parola1 = prompt("inserisci una parola");
-var parola2 = prompt("inserisci una seconda parola");
+var parola1 = "";
+var parola2 = "";
 
 var output1 = document.getElementById('parolaFirst');
 var output2 = document.getElementById('parolaSecond');
+
+while(!isNaN(parola1)){
+  parola1 = prompt("inserisci una parola");
+  if(!isNaN(parola1)){
+    alert("Ti ho detto PAROLA")
+  }
+}
+while(!isNaN(parola2)){
+  parola2 = prompt("inserisci una parola");
+  if(!isNaN(parola2)){
+    alert("Ti ho detto PAROLA")
+  }
+}
 
 if (parola1.length > parola2.length){
   output1.innerHTML = "la parola più corta è: " + parola2;
