@@ -1,7 +1,7 @@
 //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 
 var nomeUser = prompt("inserisci il tuo nome");
-var invitati = ["marco" , "elena" , "fabio", "simone","mattia"];
+var invitati = ["marco" , "elena" , "fabio", "simone","mattia"]
 var messaggio ;
 
 var i=0;
