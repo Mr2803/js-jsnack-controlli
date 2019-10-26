@@ -1,0 +1,39 @@
+body{
+  background: rgb(17, 186, 223);
+}
+
+.no_padding-margin{
+  padding:0;
+  margin:0;
+}
+
+.my_style-bg-shadow{
+box-shadow:0 2px 5px rgba(0,0,0,0.5);
+background:#1e1f26;
+}
+
+p{
+  color:white;
+}
+
+h2{
+  color:white;
+}
+
+.color{
+  color:#aaaebc;
+}
+
+.my_overflow{
+  height:250px;
+  overflow-y: scroll;
+}
+
+.text-center{
+  border : 1px solid black;
+  box-shadow: 5px 5px 10px 2px #333333;
+}
+
+.debug{
+  border:1px solid black;
+}
