@@ -19,22 +19,25 @@ p{
   background:#1e1f26;
 }
 
-span{
+.my_span-title{
   display:block;
   font-size: 1.2em;
   border-bottom: 1px solid rgba(255,255,255,0.05);
   font-weight: bold;
-  background:#1e1f26
+  box-shadow:0 2px 5px rgba(0,0,0,0.5);
+  background:#1e1f26;
 }
 
 .codepen{
-  background:#1e1f26;
+  background:#212121;
 }
 
 .my_overflow{
   height:250px;
   overflow-y: scroll;
 }
+
+
 
 /* .text-center{
   border : 1px solid black;
