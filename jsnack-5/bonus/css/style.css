@@ -1,0 +1,38 @@
+body{
+  background: rgb(17, 186, 223);
+  overflow-x: hidden;
+}
+
+
+.my_style-bg-shadow{
+box-shadow:0 2px 5px rgba(0,0,0,0.5);
+background:#1e1f26;
+border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+p{
+  color:white;
+}
+
+.color{
+  color:#aaaebc;
+  background:#1e1f26;
+}
+
+.my_span-title{
+  display:block;
+  font-size: 1.2em;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-weight: bold;
+  box-shadow:0 2px 5px rgba(0,0,0,0.5);
+  background:#1e1f26;
+}
+
+.codepen{
+  background:#212121;
+}
+
+.my_overflow{
+  height:250px;
+  overflow-y: scroll;
+}
