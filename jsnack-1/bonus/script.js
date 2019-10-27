@@ -18,9 +18,11 @@ while(isNaN(num2)){
 
 
 if(num1 > num2){
-  document.getElementById('numeromaggiore').innerHTML = "il numero maggiore è: " + num1;
+  document.getElementById('numeromaggiore').innerHTML = "il numero maggiore è: " ;
+  document.getElementById('num').innerHTML = num1;
 } else if(num2 > num1){
-  document.getElementById('numeromaggiore').innerHTML = "il numero maggiore è: " + num2;
+  document.getElementById('numeromaggiore').innerHTML = "il numero maggiore è: ";
+  document.getElementById('num').innerHTML = num2;
 } else{
   document.getElementById('numeromaggiore').innerHTML = "i numeri sono uguali";
 }
