@@ -27,12 +27,16 @@ while(!isNaN(parola2)){
 
 //condizioni per stampare in pagina prima parola più breve
 if (parola1.length > parola2.length){
-  output1.innerHTML = "la parola più corta è: " + parola2;
-  output2.innerHTML = "la parola più lunga è: " + parola1;
+  output1.innerHTML = "la parola più corta è: ";
+  document.getElementById('first').innerHTML = parola2;
+  output2.innerHTML = "la parola più lunga è: ";
+  document.getElementById('second').innerHTML = parola1;
 
 } else if(parola1.length < parola2.length){
-  output1.innerHTML = "la parola più corta è: " + parola1;
-  output2.innerHTML = "la parola più lunga è: " + parola2;
+  output1.innerHTML = "la parola più corta è: "
+  document.getElementById('first').innerHTML = parola1;
+  output2.innerHTML = "la parola più lunga è: ";
+  document.getElementById('second').innerHTML = parola2
 } else{
   document.getElementById('idem').innerHTML = "le parole hanno la stessa lunghezza " ;
 }
