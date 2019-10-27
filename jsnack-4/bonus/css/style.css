@@ -37,3 +37,26 @@ p{
   overflow-y: scroll;
 }
 
+#enterOrNot{
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  animation : text 3s 1;
+}
+
+@keyframes text{
+  0%{
+    margin-bottom : -40px;
+    color:rgb(17, 186, 223);
+  }
+
+  30%{
+    letter-spacing: 15px;
+    margin-bottom : -40px;
+  }
+  90%{
+    letter-spacing : 5px;
+    margin-bottom : -40px;
+  }
+}
