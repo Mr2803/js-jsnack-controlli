@@ -49,8 +49,6 @@ p{
   position:relative;
 }
 
-
-
 #first,
 #second{
   font-size: 2rem;
@@ -74,7 +72,6 @@ p{
     letter-spacing : 5px;
   }
 }
-
 
 #idem{
   background:#1e1f26;
