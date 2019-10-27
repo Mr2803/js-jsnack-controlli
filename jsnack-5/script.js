@@ -4,6 +4,7 @@
 //@ts-check
 
 var array = [];
+
 for(var i=0; i < 6 ; i++){
   var number = parseInt(prompt("inserisci un numero"));
   if(number % 2 !== 0){
