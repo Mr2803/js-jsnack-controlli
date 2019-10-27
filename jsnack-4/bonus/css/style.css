@@ -1,5 +1,5 @@
 body{
-  background: rgb(17, 186, 223);
+  background: #1e1f26;
   overflow-x: hidden;
 }
 
@@ -38,25 +38,35 @@ p{
 }
 
 #enterOrNot{
+  margin-bottom:20px;
+  background:#1e1f26;
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 5px;
-  animation : text 3s 1;
+  animation : text 1.5s 1;
+  position:relative;
+}
+
+#party{
+  font-size: 2rem;
+  color:rgb(221, 169, 0);
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 @keyframes text{
   0%{
     margin-bottom : -40px;
-    color:rgb(17, 186, 223);
+    color:#1e1f26;
   }
 
   30%{
+    margin-bottom : -40px;
     letter-spacing: 15px;
-    margin-bottom : -40px;
   }
-  90%{
-    letter-spacing : 5px;
+  85%{
     margin-bottom : -40px;
+    letter-spacing : 5px;
   }
 }
