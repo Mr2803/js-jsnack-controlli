@@ -1,5 +1,5 @@
 body{
-  background: rgb(17, 186, 223);
+  background: #1e1f26;
   overflow-x: hidden;
 }
 
@@ -37,9 +37,40 @@ p{
   overflow-y: scroll;
 }
 
+#numeriUtente,
+#addizione{
+  margin-bottom:20px;
+  background:#1e1f26;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  animation : text 1.5s 1;
+  position:relative;
+}
+
+#numbers,
+#somma{
+  font-size: 2rem;
+  color:rgb(221, 169, 0);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@keyframes text{
+  0%{
+    margin-bottom : -50px;
+    color:#1e1f26;
+  }
+
+  30%{
+    margin-bottom : -50px;
+    letter-spacing: 8px;
+  }
+  85%{
+    margin-bottom : -50px;
+    letter-spacing : 5px;
+  }
+}
 
 
-/* .text-center{
-  border : 1px solid black;
-  box-shadow: 5px 5px 10px 2px #333333;
-} */

@@ -2,6 +2,9 @@
 
 var somma=0;
 
+//creo un array vuoto per poter stampare tutti i numeri inseriti in pagina
+var numbersUser = []
+
 //SOLUZIONE CON CICLO FOR
 for (var i = 0; i < 5; i++) {
   //chiedo di inserire un numero
@@ -12,13 +15,16 @@ for (var i = 0; i < 5; i++) {
     //condizione all'interno dell'if per far si che la mia i(index) retroceda di una posizione se il valore inserito non è un numero
     i--;
   } else{
-    console.log(nums);
-    somma = somma + nums;
+    var somma = somma + nums;
     //OPPURE somma += nums
+    numbersUser.push(nums);
+    //inizialmente ho creato un array vuoto per poter inserire all'interno tutti i numeri inseriti dall'utente e stamparli tutti in pagina
   }
 }
+document.getElementById('numeriUtente').innerHTML = "I numeri da te inseriti sono:";
+document.getElementById('numbers').innerHTML = numbersUser;
+document.getElementById('addizione').innerHTML = "La loro somma è:";
 document.getElementById('somma').innerHTML = somma;
-console.log(somma);
 
 /* SOLUZIONE CON CICLO WHILE
 var j = 0;
