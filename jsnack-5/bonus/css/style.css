@@ -1,5 +1,5 @@
 body{
-  background: rgb(17, 186, 223);
+  background: #1e1f26;
   overflow-x: hidden;
 }
 
@@ -35,4 +35,44 @@ p{
 .my_overflow{
   height:250px;
   overflow-y: scroll;
+}
+
+#globalNumbers,
+#globalOdd{
+  margin-bottom:20px;
+  background:#1e1f26;
+  font-size:2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  animation : text 1.5s 1;
+  position:relative;
+}
+
+#globalOdd span{
+  color:rgb(226, 65, 65);
+}
+
+#numbers,
+#odd{
+  font-size: 2rem;
+  color:rgb(221, 169, 0);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@keyframes text{
+  0%{
+    margin-bottom : -50px;
+    color:#1e1f26;
+  }
+
+  30%{
+    margin-bottom : -50px;
+    letter-spacing: 5px;
+  }
+  85%{
+    margin-bottom : -50px;
+    letter-spacing : 2px;
+  }
 }
