@@ -1,5 +1,5 @@
 body{
-  background: rgb(17, 186, 223);
+  background: #1e1f26;
   overflow-x: hidden;
 }
 
@@ -37,10 +37,62 @@ p{
   overflow-y: scroll;
 }
 
+#parolaFirst,
+#parolaSecond{
+  margin-bottom:20px;
+  background:#1e1f26;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  animation : text 1.5s 1;
+  position:relative;
+}
 
 
-/* .text-center{
-  border : 1px solid black;
-  box-shadow: 5px 5px 10px 2px #333333;
-} */
 
+#first,
+#second{
+  font-size: 2rem;
+  color:rgb(221, 169, 0);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@keyframes text{
+  0%{
+    margin-bottom : -40px;
+    color:#1e1f26;
+  }
+
+  30%{
+    margin-bottom : -40px;
+    letter-spacing: 15px;
+  }
+  85%{
+    margin-bottom : -40px;
+    letter-spacing : 5px;
+  }
+}
+
+
+#idem{
+  background:#1e1f26;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  animation : textidem 1.5s 1;
+}
+
+@keyframes textidem{
+  0%{
+    color:#1e1f26;
+  }
+  30%{
+    letter-spacing: 5px;
+  }
+  85%{
+    letter-spacing : 2px;
+  }
+}
