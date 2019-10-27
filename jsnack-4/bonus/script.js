@@ -34,12 +34,12 @@ if(messaggio == true){
 }
  */
 
-
+//SOLUZIONE CON 1 CICLO WHILE CONTENUTO IN UN ALTRO
 var nomeUser = "";
 var invitati = ["marco", "elena", "fabio", "simone", "mattia"]
 
 
-//apro un primo ciclo while dove imposto le condizione che il valore inserito dall'utente non deve essere un numero
+//apro un primo ciclo while dove imposto le condizione di base che il valore inserito dall'utente non deve essere un numero
 
 while (!isNaN(nomeUser)){
 //chiedo all'utente di inserire il suo nome 
@@ -63,14 +63,14 @@ while (!isNaN(nomeUser)){
       i++;
     }
   }
+  //imposto le condizioni per il print in pagina e cioè che il messaggio deve essere ==true (risultato del secondo ciclo while) && non deve essere un numero ( la seconda condizione posso anche ometterla perchè se arriviamo a questo if di base l'utente non ha inserito un numero) altrimenti stampa il messaggio non puoi entrare
+  if (messaggio == true ) {
+    document.getElementById("enterOrNot").innerHTML = "Puoi entrare";
+  } else {
+    document.getElementById("enterOrNot").innerHTML = "Non puoi entrare";
+  }
 }
 
-//imposto le condizioni per il print in pagina e cioè che il messaggio deve essere ==true (risultato del secondo ciclo while) && non deve essere un numero ( la seconda condizione posso anche ometterla perchè se arriviamo a questo if di base l'utente non ha inserito un numero) altrimenti stampa il messaggio non puoi entrare
-if (messaggio == true ) {
-  document.getElementById("enterOrNot").innerHTML = "Puoi entrare";
-} else {
-  document.getElementById("enterOrNot").innerHTML = "Non puoi entrare";
-}
 
 
 
